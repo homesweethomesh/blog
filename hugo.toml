@@ -1,0 +1,32 @@
+baseURL = "https://example.org/"  # the GitHub deploy overrides this automatically
+languageCode = "en-gb"
+title = "/home/sweet/home"   # pick a real name
+enableRobotsTXT = true
+
+# The theme goes here once you've picked one (see README.md, "Picking a theme").
+# theme = "PaperMod"
+
+[params]
+  description = "Renovating a house in Madrid and wiring it up as a local-only smart home, keeping it down to earth with a passing WAF."
+  author = "/home/sweet/home"
+
+[taxonomies]
+  tag = "tags"            # rooms and tech: kitchen, zigbee, esphome...
+  category = "categories" # renovation phase: planning, demolition, first fix...
+  series = "series"       # multi-part builds, e.g. "The pantry build"
+
+[[menu.main]]
+  name = "Journal"
+  url = "/posts/"
+  weight = 10
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 20
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 30
+
+[outputs]
+  home = ["HTML", "RSS"]
