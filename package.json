@@ -1,0 +1,7 @@
+{
+  "name": "homesweethome",
+  "private": true,
+  "scripts": {
+    "dev": "hugo server -D"
+  }
+}

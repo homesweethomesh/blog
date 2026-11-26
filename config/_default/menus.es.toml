@@ -1,0 +1,11 @@
+# -- Menú principal --
+
+[[main]]
+  name = "Diario"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Acerca de"
+  pageRef = "about"
+  weight = 20

@@ -1,0 +1,16 @@
+disabled = false
+locale = "es"
+label = "Español"
+weight = 2
+title = "/home/sweet/home"
+
+[params]
+  displayName = "ES"
+  isoCode = "es"
+  rtl = false
+  dateFormat = "2 de enero de 2006"
+  description = "Renovación de una casa en España y conversión en un hogar inteligente local, manteniendo las cosas con los pies en la tierra y con un mínimo de aprobación familiar."
+
+ [params.author]
+   name = "/home/sweet/home"
+   email = "homesweethomesh@proton.me"
